@@ -15,6 +15,9 @@ class NewRestaurant extends Component {
   handleSubmit(event) {
     event.preventDefault();
     this.restaurantsRef.push( {name: this.state.name} )
+    this.setState({
+      name: ''
+    })
   }
 
   render() {
@@ -22,8 +25,7 @@ class NewRestaurant extends Component {
 
     return (
       <form
-        className="NewRestaurant"
-      >
+        className="NewRestaurant">
         <input
           type="text"
           value={ name }
