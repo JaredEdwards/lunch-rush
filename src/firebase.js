@@ -1,11 +1,11 @@
 import firebase from 'firebase';
 
 const config = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  storageBucket: '',
-  messagingSenderId: ''
+  apiKey: 'AIzaSyB9Jd_9HGYOByLItcGrTVXWPLRD8HGazgY',
+  authDomain: 'lunch-rush-1a3f0.firebaseapp.com',
+  databaseURL: 'https://lunch-rush-1a3f0.firebaseio.com',
+  storageBucket: 'lunch-rush-1a3f0.appspot.com',
+  messagingSenderId: '921614943407'
 };
 
 firebase.initializeApp(config);
